@@ -25,14 +25,14 @@ export default function Hero() {
         >
           FORMS
         </Button>
-        <Button
+        <button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('calling')}
         >
           <a href='tel:5555555555'>CALL US</a> <i className='fa fa-phone' />
-        </Button>
+        </button>
       </div>
     </div>
   )

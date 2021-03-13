@@ -5,7 +5,7 @@ import './Grooming.css'
 function Grooming() {
   return (
     <div className='grooming'>
-      <h1>Services & Prices</h1>
+      <h1>Grooming</h1>
       <div className='grooming__container'>
         <div className='grooming__wrapper'>
           <ul className='grooming__items'>

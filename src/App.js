@@ -4,6 +4,7 @@ import Navbar from './components/ui/Navbar/Navbar'
 // import ContactUs from './components/pages/ContactUs/ContactUs'
 import Home from './components/pages/Home/Home'
 import Grooming from './components/pages/Grooming/Grooming'
+import OurServices from './components/pages/OurServices/OurServices'
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Route path='/contact-us' component={ContactUs} />
          <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />
-        <Route path='/consulting' component={Consulting} /> }
-        <Route path='/our-services' component={OurServices} /> */}
+        <Route path='/consulting' component={Consulting} /> */}
+        <Route path='/services' component={OurServices} />
       </Switch>
     </Router>
   )

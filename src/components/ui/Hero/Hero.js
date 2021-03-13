@@ -29,8 +29,9 @@ export default function Hero() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          onClick={console.log('calling')}
         >
-          Call Us <i className='fa fa-phone' />
+          <a href='tel:5555555555'>CALL US</a> <i className='fa fa-phone' />
         </Button>
       </div>
     </div>

@@ -52,8 +52,13 @@ video {
   margin: 6px;
 }
 
-.fa-fa-phone {
+.fa-phone {
   margin-left: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {

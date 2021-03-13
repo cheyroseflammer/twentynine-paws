@@ -10,12 +10,12 @@ export default function Hero() {
         We provide quality grooming by educated and skilled professionals.
       </h4>
       <p>
-        We are a family owned business. Our Mission is to provide a healthy and
+        Our Mission as a family owned buisness is to provide a healthy and
         positive grooming experience for your pet in a professional and
         stress-free environment. All pets are treated with love and kindness, as
         well as from a professional and humane approach. It is our goal to
         assure owners that their pets will be treated with the same love and
-        respect as we treat our own personal pets.
+        respect as we treat our own beloved pets.
       </p>
       <div className='hero-btns'>
         <Button

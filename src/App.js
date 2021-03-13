@@ -5,6 +5,7 @@ import Navbar from './components/ui/Navbar/Navbar'
 import Home from './components/pages/Home/Home'
 import Grooming from './components/pages/Grooming/Grooming'
 import OurServices from './components/pages/OurServices/OurServices'
+import Footer from './components/ui/Footer/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/consulting' component={Consulting} /> */}
         <Route path='/services' component={OurServices} />
       </Switch>
+      <Footer />
     </Router>
   )
 }

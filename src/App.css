@@ -6,13 +6,15 @@
   padding: 0;
 }
 
+
 .home,
 .services,
 .products,
 .contact-us,
 .dropdown,
 .navbar,
-.hero-container {
+.hero-container
+ {
   display: flex;
   height: 90vh;
   align-items: center;

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/ui/Navbar/Navbar'
 // import ContactUs from './components/pages/ContactUs/ContactUs'
 import Home from './components/pages/Home/Home'
+import Grooming from './components/pages/Grooming/Grooming'
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        {/* <Route path='/grooming' component={Grooming} />
-        <Route path='/products' component={Products} /> 
+        <Route path='/grooming' component={Grooming} />
+        {/*<Route path='/products' component={Products} /> 
         <Route path='/contact-us' component={ContactUs} />
          <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />

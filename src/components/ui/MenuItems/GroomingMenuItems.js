@@ -11,12 +11,7 @@ export const GroomingMenuItems = [
   },
   {
     title: 'Services',
-    path: '/our-services',
-    cName: 'dropdown-link',
-  },
-  {
-    title: 'Price List',
-    path: '/price-list',
+    path: '/services',
     cName: 'dropdown-link',
   },
 ]

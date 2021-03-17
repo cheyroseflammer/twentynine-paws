@@ -13,13 +13,13 @@ function Grooming() {
               src='assets/full-bath.jpg'
               text='Full Services Bath Package'
               label='Full Bath'
-              path='/services'
+              path='/prices'
             />
             <GroomCards
               src='assets/full-groom.jpg'
               text='Full Services Groom Package'
               label='Full Groom'
-              path='/services'
+              path='/prices'
             />
           </ul>
           <ul className='grooming__items'>
@@ -27,19 +27,19 @@ function Grooming() {
               src='assets/cat-bath.jfif'
               text='Cat Services'
               label='Cat Care'
-              path='/services'
+              path='/prices'
             />
             <GroomCards
               src='assets/mavgoose.jpg'
               text='Price List'
               label='Prices'
-              path='/services'
+              path='/prices'
             />
             <GroomCards
               src='assets/splash-dash.jfif'
               text='Splash & Dash'
               label='Shake it Off'
-              path='/services'
+              path='/prices'
             />
           </ul>
         </div>

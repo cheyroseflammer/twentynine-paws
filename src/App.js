@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/ui/Navbar/Navbar'
-// import ContactUs from './components/pages/ContactUs/ContactUs'
 import Home from './components/pages/Home/Home'
 import Grooming from './components/pages/Grooming/Grooming'
-// import OurServices from './components/pages/OurServices/OurServices'
 import Footer from './components/ui/Footer/Footer'
+import Footer2 from './components/ui/Footer/Footer2'
 import PriceList from './components/pages/Prices/PriceList'
 
 function App() {
@@ -21,9 +20,8 @@ function App() {
          <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />
         <Route path='/consulting' component={Consulting} /> */}
-        {/* <Route path='/services' component={OurServices} /> */}
       </Switch>
-      <Footer />
+      <Footer2 />
     </Router>
   )
 }

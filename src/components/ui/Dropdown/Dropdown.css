@@ -18,8 +18,19 @@
 .dropdown-menu.clicked {
   display: none;
 }
+.dropdown-menu-about.clicked {
+  display: none;
+}
 
 .dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+.dropdown-link-about {
   display: block;
   height: 100%;
   width: 100%;

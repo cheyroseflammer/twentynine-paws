@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import GroomingDropdown from '../Dropdown/GroomingDropdown'
-import { Button } from '../Button/Button'
+import AboutDropdown from '../Dropdown/AboutDropdown'
+// import { Button } from '../Button/Button'
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -71,7 +72,7 @@ function Navbar() {
               >
                 About <i className='fas fa-caret-down' />
               </Link>
-              {/* {dropdown && <AboutDropdown />} */}
+              {dropdown && <AboutDropdown />}
             </li>
           </li>
           <li className='nav-item'>

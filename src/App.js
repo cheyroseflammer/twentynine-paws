@@ -4,8 +4,9 @@ import Navbar from './components/ui/Navbar/Navbar'
 // import ContactUs from './components/pages/ContactUs/ContactUs'
 import Home from './components/pages/Home/Home'
 import Grooming from './components/pages/Grooming/Grooming'
-import OurServices from './components/pages/OurServices/OurServices'
+// import OurServices from './components/pages/OurServices/OurServices'
 import Footer from './components/ui/Footer/Footer'
+import PriceList from './components/pages/Prices/PriceList'
 
 function App() {
   return (
@@ -14,12 +15,13 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/grooming' component={Grooming} />
+        <Route path='/prices' component={PriceList} />
         {/*<Route path='/products' component={Products} /> 
         <Route path='/contact-us' component={ContactUs} />
          <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />
         <Route path='/consulting' component={Consulting} /> */}
-        <Route path='/services' component={OurServices} />
+        {/* <Route path='/services' component={OurServices} /> */}
       </Switch>
       <Footer />
     </Router>

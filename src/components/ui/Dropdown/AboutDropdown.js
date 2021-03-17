@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { GroomingMenuItems } from '../MenuItems/MenuItems'
+import { AboutMenuItems } from '../MenuItems/MenuItems'
 import './Dropdown.css'
 import { Link } from 'react-router-dom'
 
-function GroomingDropdown() {
+function AboutDropdown() {
   const [click, setClick] = useState(false)
 
   const handleClick = () => setClick(!click)
@@ -14,7 +14,7 @@ function GroomingDropdown() {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {GroomingMenuItems.map((item, index) => {
+        {AboutMenuItems.map((item, index) => {
           return (
             <li key={index}>
               <Link
@@ -32,4 +32,4 @@ function GroomingDropdown() {
   )
 }
 
-export default GroomingDropdown
+export default AboutDropdown

@@ -9,7 +9,7 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 `
 
 export const FooterMap = styled.section`
@@ -51,6 +51,8 @@ export const FooterLinkItems = styled.div`
   width: 160px;
   box-sizing: border-box;
   color: #fff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
   @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;

@@ -65,11 +65,7 @@ function Navbar() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
-              <Link
-                to='/grooming'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                 About <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <AboutDropdown />}

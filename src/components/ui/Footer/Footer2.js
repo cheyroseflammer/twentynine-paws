@@ -63,13 +63,17 @@ function Footer2() {
           </div>
           <div className='social-media'>
             <div className='social-media-wrap'>
-              <div className='social-logo'>
-                <Link to='/'>
-                  <div className='social-icon'>{/* insert paw icon */}</div>
-                  <p className='idk'>29 Paws</p>
-                </Link>
+              <div className='social-position'>
+                <div className='social-logo'>
+                  <Link className='social-link' to='/'>
+                    <div className='social-icon'>
+                      <i className='fas fa-paw' />
+                    </div>
+                    <p className='idk'>29 Paws</p>
+                  </Link>
+                </div>
+                <div className='website-rights'>29 Paws Grooming © 2021</div>
               </div>
-              <div className='website-rights'>29 Paws Grooming © 2021</div>
             </div>
           </div>
         </div>

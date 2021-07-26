@@ -15,20 +15,21 @@ export const GroomingMenuItems = [
     cName: 'dropdown-link',
   },
 ]
+
 export const AboutMenuItems = [
   {
     title: 'Test1',
-    path: '/test',
+    path: '/test1',
     cName: 'dropdown-link-about',
   },
   {
     title: 'Test2',
-    path: '/test',
+    path: '/test2',
     cName: 'dropdown-link-about',
   },
   {
     title: 'Test3',
-    path: '/test',
+    path: '/test3',
     cName: 'dropdown-link-about',
   },
 ]

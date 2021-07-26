@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/ui/Navbar/Navbar'
+import About from './components/pages/About/About'
 import Home from './components/pages/Home/Home'
 import Grooming from './components/pages/Grooming/Grooming'
-import Footer from './components/ui/Footer/Footer'
+// import Footer from './components/ui/Footer/Footer'
 import Footer2 from './components/ui/Footer/Footer2'
 import PriceList from './components/pages/Prices/PriceList'
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/grooming' component={Grooming} />
         <Route path='/prices' component={PriceList} />
+        <Route path='/about' component={About} />
         {/*<Route path='/products' component={Products} /> 
         <Route path='/contact-us' component={ContactUs} />
          <Route path='/sign-up' component={SignUp} />

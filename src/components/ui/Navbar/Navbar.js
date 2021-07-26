@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import GroomingDropdown from '../Dropdown/GroomingDropdown'
-import AboutDropdown from '../Dropdown/AboutDropdown'
+// import AboutDropdown from '../Dropdown/AboutDropdown'
 // import { Button } from '../Button/Button'
 
 function Navbar() {
@@ -60,16 +60,13 @@ function Navbar() {
             </li>
           </li>
           <li className='nav-item'>
-            <li
-              className='nav-item'
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
+            <Link
+              to='/about'
+              className='nav-links'
+              onClick={closeMobileMenu}
             >
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                About <i className='fas fa-caret-down' />
-              </Link>
-              {dropdown && <AboutDropdown />}
-            </li>
+              About
+            </Link>
           </li>
           <li className='nav-item'>
             <Link

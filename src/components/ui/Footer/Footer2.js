@@ -61,9 +61,8 @@ function Footer2() {
               <p className='link-item'>Yelp</p>
             </Link>
           </div>
-          <div className='social-media'>
+          <section className='social-media'>
             <div className='social-media-wrap'>
-              <div className='social-position'>
                 <div className='social-logo'>
                   <Link className='social-link' to='/'>
                     <div className='social-icon'>
@@ -74,8 +73,7 @@ function Footer2() {
                 </div>
                 <div className='website-rights'>29 Paws Grooming © 2021</div>
               </div>
-            </div>
-          </div>
+            </section>
         </div>
       </div>
     </div>

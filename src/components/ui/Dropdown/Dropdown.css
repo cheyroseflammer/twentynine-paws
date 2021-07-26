@@ -18,9 +18,9 @@
 .dropdown-menu.clicked {
   display: none;
 }
-.dropdown-menu-about.clicked {
+/* .dropdown-menu-about.clicked {
   display: none;
-}
+} */
 
 .dropdown-link {
   display: block;

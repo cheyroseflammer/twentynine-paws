@@ -1,6 +1,6 @@
-# Twentynine Palms and Paws 
+# Palms and Paws 
 
-This is a website being built and designed for 29 Palms and Paws grooming buinsess.
+This is a website being built and designed for Palms and Paws grooming buinsess.
 
 ----
 ## Screenshots 
